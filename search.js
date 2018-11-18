@@ -37,7 +37,7 @@ function doClick() {
   // Send an asynchronous HTTP GET request to the given end point (url)
   xhttp.open("GET", "https://api.imgur.com/3/gallery/search/top/all/1?q=" + searchTerm, true);
   xhttp.setRequestHeader("Authorization",
-    "Client-ID a0c164583c558ef")
+    "Client-ID 83d248620b4f1a5")
   xhttp.send();
 
 }
